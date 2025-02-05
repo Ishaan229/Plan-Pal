@@ -61,7 +61,7 @@ export const chatSession = model.startChat({
       parts: [
         {
           text: `Generate a travel plan for Location: Las Vegas for 3 days for a couple with a cheap budget. 
-                    Provide a list of hotels with the following details: 
+                    Provide a list of hotels(atleast 5 hotel) with the following details: 
                     Hotel Name, Hotel Address, Price, Hotel Image URL, Geo Coordinates, Rating, and Description. 
 
                     Also, provide an itinerary in JSON format with a time-wise plan for each day and location. Give atleast 3-4 locations on each day. If the location does not have many tourist spots, then add places which are in outskirts or suggest a good cafe or restaurant.
